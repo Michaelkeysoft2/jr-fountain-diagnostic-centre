@@ -6,7 +6,11 @@ export const metadata = {
   keywords: 'diagnostic centre ibadan, medical laboratory, digital xray ibadan, 3D 4D ultrasound scan, cardiac ECG holter ibadan, doctor referral diagnostic, J-R Fountain Diagnostic Centre',
   authors: [{ name: 'MichaelKeysoft' }],
   icons: {
-    icon: '/favicon.svg',
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico', sizes: 'any' },
+    ],
+    apple: '/apple-touch-icon.png',
   },
 };
 
