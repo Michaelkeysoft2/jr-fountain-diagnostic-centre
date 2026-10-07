@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import { Activity, Phone, Mail, MapPin, HeartPulse, ArrowUp } from 'lucide-react';
 import { CLINICAL_INFORMATION } from '../data/testsData';

@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState } from 'react';
 import { MessageCircle, X } from 'lucide-react';
 import { CLINICAL_INFORMATION } from '../data/testsData';

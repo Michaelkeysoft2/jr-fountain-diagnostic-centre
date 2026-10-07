@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState } from 'react';
 import { ChevronDown, HelpCircle, AlertCircle, FileCheck, PhoneCall } from 'lucide-react';
 import { CLINICAL_INFORMATION } from '../data/testsData';
