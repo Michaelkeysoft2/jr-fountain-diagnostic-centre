@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Activity, Phone, Mail, MapPin, HeartPulse, ArrowUp } from 'lucide-react';
+import { Activity, Phone, Mail, MapPin, HeartPulse, ArrowUp, ShieldCheck } from 'lucide-react';
 import { CLINICAL_INFORMATION } from '../data/testsData';
 
 export default function Footer() {
@@ -20,7 +20,7 @@ export default function Footer() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
-          {/* Col 1: About & Logo */}
+          {/* Col 1: About & Brand */}
           <div className="lg:col-span-2 space-y-4">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-xl bg-teal-600 flex items-center justify-center text-white">
@@ -37,7 +37,7 @@ export default function Footer() {
             </div>
 
             <p className="text-slate-400 text-xs sm:text-sm leading-relaxed max-w-sm">
-              Providing dependable clinical chemistry, haematology, microbiology, tumour markers, and 24-hour cardiac investigations in Ibadan, Nigeria.
+              Providing dependable clinical chemistry, haematology, microbiology, tumour markers, digital X-Ray, 3D/4D ultrasound, and 24-hour cardiac investigations in Ibadan, Nigeria.
             </p>
 
             <div className="space-y-2 pt-2 text-xs">
@@ -58,35 +58,34 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Col 2: Quick Links */}
+          {/* Col 2: Clinical Services */}
           <div>
             <h4 className="text-white font-bold text-xs uppercase tracking-wider mb-4">
-              Navigation
+              Diagnostic Services
             </h4>
             <ul className="space-y-2.5 text-xs sm:text-sm">
-              <li><a href="#home" className="hover:text-teal-300 transition-colors">Home</a></li>
-              <li><a href="#about" className="hover:text-teal-300 transition-colors">About the Centre</a></li>
-              <li><a href="#services" className="hover:text-teal-300 transition-colors">Services Directory</a></li>
+              <li><a href="#laboratory-entails" className="hover:text-teal-300 transition-colors">Laboratory Testing</a></li>
+              <li><a href="#xray-entails" className="hover:text-teal-300 transition-colors">Digital X-Ray Radiography</a></li>
+              <li><a href="#ultrasound-entails" className="hover:text-teal-300 transition-colors">3D/4D Ultrasound Scans</a></li>
+              <li><a href="#services" className="hover:text-teal-300 transition-colors">Cardiac Studies &amp; Holter</a></li>
+              <li><a href="#referral-portal" className="hover:text-teal-300 transition-colors">Doctor Referral Network</a></li>
               <li><a href="#request-form" className="hover:text-teal-300 transition-colors">Lab Request Form</a></li>
-              <li><a href="#why-us" className="hover:text-teal-300 transition-colors">Why Choose Us</a></li>
-              <li><a href="#faqs" className="hover:text-teal-300 transition-colors">Patient FAQs</a></li>
-              <li><a href="#contact" className="hover:text-teal-300 transition-colors">Contact Us</a></li>
             </ul>
           </div>
 
-          {/* Col 3: Key Investigations */}
+          {/* Col 3: Standard Policies */}
           <div>
             <h4 className="text-white font-bold text-xs uppercase tracking-wider mb-4">
-              Test Specialties
+              Standard Policies
             </h4>
             <ul className="space-y-2.5 text-xs sm:text-sm">
-              <li><a href="#services" className="hover:text-teal-300 transition-colors">Cardiac Studies &amp; ECG</a></li>
-              <li><a href="#services" className="hover:text-teal-300 transition-colors">Renal / Kidney Panel</a></li>
-              <li><a href="#services" className="hover:text-teal-300 transition-colors">Liver Function Tests</a></li>
-              <li><a href="#services" className="hover:text-teal-300 transition-colors">Tumour &amp; Cancer Markers</a></li>
-              <li><a href="#services" className="hover:text-teal-300 transition-colors">Hormonal Profile</a></li>
-              <li><a href="#services" className="hover:text-teal-300 transition-colors">Haematology &amp; Genotype</a></li>
-              <li><a href="#services" className="hover:text-teal-300 transition-colors">Microbiology &amp; Biopsy</a></li>
+              <li><a href="#policies" className="hover:text-teal-300 transition-colors">Patient Privacy &amp; Data</a></li>
+              <li><a href="#policies" className="hover:text-teal-300 transition-colors">Quality Control (ISO 15189)</a></li>
+              <li><a href="#policies" className="hover:text-teal-300 transition-colors">Sample Integrity &amp; Rejection</a></li>
+              <li><a href="#policies" className="hover:text-teal-300 transition-colors">Radiation Safety (ALARA)</a></li>
+              <li><a href="#policies" className="hover:text-teal-300 transition-colors">Consent &amp; Chaperone Policy</a></li>
+              <li><a href="#policies" className="hover:text-teal-300 transition-colors">Pricing &amp; Refund Policy</a></li>
+              <li><a href="#policies" className="hover:text-teal-300 transition-colors">Patient Rights &amp; Grievance</a></li>
             </ul>
           </div>
 

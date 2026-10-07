@@ -11,7 +11,8 @@ import {
   MessageCircle, 
   CalendarCheck,
   ChevronRight,
-  Stethoscope
+  Stethoscope,
+  ShieldCheck
 } from 'lucide-react';
 import { CLINICAL_INFORMATION } from '../data/testsData';
 
@@ -34,7 +35,7 @@ export default function Navbar({ selectedTestsCount = 0 }) {
     { name: 'Ultrasound/Scans', href: '#ultrasound-entails' },
     { name: 'Hospital Referrals', href: '#referral-portal' },
     { name: 'Test Directory', href: '#services' },
-    { name: 'Request Form', href: '#request-form' },
+    { name: 'Policies', href: '#policies' },
     { name: 'Contact', href: '#contact' },
   ];
 
@@ -101,7 +102,7 @@ export default function Navbar({ selectedTestsCount = 0 }) {
           </a>
 
           {/* Desktop Nav Links */}
-          <div className="hidden xl:flex items-center gap-5">
+          <div className="hidden xl:flex items-center gap-4">
             {navLinks.map((link) => (
               <a
                 key={link.name}

@@ -11,6 +11,7 @@ import About from '../components/About';
 import ServicesDirectory from '../components/ServicesDirectory';
 import RequestForm from '../components/RequestForm';
 import WhyChooseUs from '../components/WhyChooseUs';
+import StandardPoliciesSection from '../components/StandardPoliciesSection';
 import FaqSection from '../components/FaqSection';
 import ContactSection from '../components/ContactSection';
 import Footer from '../components/Footer';
@@ -73,17 +74,20 @@ export default function Home() {
         {/* 9. Why Patients & Referring Doctors Choose J-R Fountain */}
         <WhyChooseUs />
 
-        {/* 10. Patient Preparation FAQs */}
+        {/* 10. Standard Clinical Policies & Regulatory Compliance */}
+        <StandardPoliciesSection />
+
+        {/* 11. Patient Preparation FAQs */}
         <FaqSection />
 
-        {/* 11. Facility Location, Embedded Map & Contact Form */}
+        {/* 12. Facility Location, Embedded Map & Contact Form */}
         <ContactSection />
       </main>
 
-      {/* 12. Footer with Psalm 36:9 Motto and Developer Attribution */}
+      {/* 13. Footer with Scripture Strip, Policy Links & Attribution */}
       <Footer />
 
-      {/* 13. Persistent 1-Click WhatsApp Floating Hub */}
+      {/* 14. Persistent 1-Click WhatsApp Floating Hub */}
       <FloatingWhatsApp />
     </div>
   );
